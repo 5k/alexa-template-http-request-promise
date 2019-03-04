@@ -1,0 +1,13 @@
+_dev/
+config.js
+gitsetup.sh
+_tmp/
+node_modules/
+tempfiles/
+reference/
+custom/asktemp_*
+images/
+*.pxm
+*.jpg
+*.png
+misc/
