@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "This is a demo skill to illustrate HTTP requests using the 'request' module.",
+          "examplePhrases": [
+            "Alexa open request test",
+            "Alexa launch request test",
+            "Alexa start request test"
+          ],
+          "name": "request-test",
+          "description": "This is a demo skill to illustrate HTTP requests using the 'request' module."
+        },
+        "en-GB": {
+          "summary": "This is a demo skill to illustrate HTTP requests using the 'request' module.",
+          "examplePhrases": [
+            "Alexa open request test",
+            "Alexa launch request test",
+            "Alexa start request test"
+          ],
+          "name": "request-test",
+          "description": "This is a demo skill to illustrate HTTP requests using the 'request' module."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Invoke the skill and say help for instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "alexa-request-test"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
